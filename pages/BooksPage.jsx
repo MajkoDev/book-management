@@ -2,13 +2,13 @@
 
 import { useEffect, useState } from "react";
 import JSONDATA from "../data/MOCK_DATA.json";
-
 import axios from "axios";
 
 const BooksPage = () => {
   const [loading, setLoading] = useState(true);
   const [books, setBooks] = useState([]);
 
+  // asynch fetching data with axios
   useEffect(() => {
     const getBooks = async () => {
       try {
@@ -20,9 +20,8 @@ const BooksPage = () => {
         console.log("There has been error somewhere.");
       }
     };
-    setTimeout(getBooks, 1500)
-
-}, []);
+    setTimeout(getBooks, 1500);
+  }, []);
 
   return (
     <div className="book-page">
