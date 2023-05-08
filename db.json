@@ -1,175 +1,176 @@
-{"books" : [
-  {
-    "id": 1,
-    "title": "To Kill a Mockingbird",
-    "author": "Harper Lee",
-    "genre": "Fiction",
-    "price": 12.99,
-    "description": "A powerful story about racial injustice and the loss of innocence in a small Southern town.",
-    "pages": 336
-  },
-  {
-    "id": 2,
-    "title": "1984",
-    "author": "George Orwell",
-    "genre": "Dystopian Fiction",
-    "price": 9.99,
-    "description": "A chilling vision of a future in which the government has total control over every aspect of citizens' lives.",
-    "pages": 328
-  },
-  {
-    "id": 3,
-    "title": "The Catcher in the Rye",
-    "author": "J.D. Salinger",
-    "genre": "Coming-of-Age Fiction",
-    "price": 8.99,
-    "description": "A timeless classic about a teenager's existential crisis in the aftermath of his expulsion from prep school.",
-    "pages": 277
-  },
-  {
-    "id": 4,
-    "title": "Pride and Prejudice",
-    "author": "Jane Austen",
-    "genre": "Romance",
-    "price": 6.99,
-    "description": "A witty and charming tale of love and social class in Georgian England.",
-    "pages": 336
-  },
-  {
-    "id": 5,
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "genre": "Literary Fiction",
-    "price": 10.99,
-    "description": "A masterful depiction of the excesses and illusions of the Jazz Age.",
-    "pages": 180
-  },
-  {
-    "id": 6,
-    "title": "Moby-Dick",
-    "author": "Herman Melville",
-    "genre": "Adventure",
-    "price": 13.99,
-    "description": "An epic tale of obsession and revenge on the high seas.",
-    "pages": 704
-  },
-  {
-    "id": 7,
-    "title": "The Adventures of Huckleberry Finn",
-    "author": "Mark Twain",
-    "genre": "Adventure",
-    "price": 7.99,
-    "description": "A rollicking tale of friendship and freedom along the Mississippi River in the pre-Civil War South.",
-    "pages": 366
-  },
-  {
-    "id": 8,
-    "title": "One Hundred Years of Solitude",
-    "author": "Gabriel Garcia Marquez",
-    "genre": "Magical Realism",
-    "price": 11.99,
-    "description": "A mesmerizing saga of the Buendia family's struggles and triumphs in a fictional town in Colombia.",
-    "pages": 417
-  },
-  {
-    "id": 9,
-    "title": "The Lord of the Rings",
-    "author": "J.R.R. Tolkien",
-    "genre": "Fantasy",
-    "price": 19.99,
-    "description": "A sweeping epic of good vs. evil in a fully realized imaginary world filled with unforgettable characters.",
-    "pages": 1178
-  },
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "price": 12.99,
+      "description": "A powerful story about racial injustice and the loss of innocence in a small Southern town.",
+      "pages": 336
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian Fiction",
+      "price": 9.99,
+      "description": "A chilling vision of a future in which the government has total control over every aspect of citizens' lives.",
+      "pages": 328
+    },
+    {
+      "id": 3,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Coming-of-Age Fiction",
+      "price": 8.99,
+      "description": "A timeless classic about a teenager's existential crisis in the aftermath of his expulsion from prep school.",
+      "pages": 277
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "price": 6.99,
+      "description": "A witty and charming tale of love and social class in Georgian England.",
+      "pages": 336
+    },
+    {
+      "id": 5,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Literary Fiction",
+      "price": 10.99,
+      "description": "A masterful depiction of the excesses and illusions of the Jazz Age.",
+      "pages": 180
+    },
+    {
+      "id": 6,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "price": 13.99,
+      "description": "An epic tale of obsession and revenge on the high seas.",
+      "pages": 704
+    },
+    {
+      "id": 7,
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "genre": "Adventure",
+      "price": 7.99,
+      "description": "A rollicking tale of friendship and freedom along the Mississippi River in the pre-Civil War South.",
+      "pages": 366
+    },
+    {
+      "id": 8,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel Garcia Marquez",
+      "genre": "Magical Realism",
+      "price": 11.99,
+      "description": "A mesmerizing saga of the Buendia family's struggles and triumphs in a fictional town in Colombia.",
+      "pages": 417
+    },
+    {
+      "id": 9,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "price": 19.99,
+      "description": "A sweeping epic of good vs. evil in a fully realized imaginary world filled with unforgettable characters.",
+      "pages": 1178
+    },
 
-  {
-    "id": 10,
-    "title": "The Hitchhiker's Guide to the Galaxy",
-    "author": "Douglas Adams",
-    "genre": "Science Fiction",
-    "price": 5.99,
-    "description": "A hilarious and irreverent romp through space and time, featuring a hapless human and his alien friend.",
-    "pages": 224
-  },
-  {
-    "id": 11,
-    "title": "In Search of Lost Time",
-    "author": "Marcel Proust",
-    "genre": "Fiction",
-    "price": 15.99,
-    "description": "A seven-volume masterpiece of modernist literature, exploring the themes of memory, time, and society in fin-de-siècle France.",
-    "pages": 4215
-  },
-  {
-    "id": 12,
-    "title": "Anna Karenina",
-    "author": "Leo Tolstoy",
-    "genre": "Realistic Fiction",
-    "price": 9.99,
-    "description": "A sweeping novel of love, adultery, and family set against the backdrop of 19th-century Russia.",
-    "pages": 864
-  },
-  {
-    "id": 13,
-    "title": "War and Peace",
-    "author": "Leo Tolstoy",
-    "genre": "Historical Fiction",
-    "price": 12.99,
-    "description": "A panoramic novel of the Napoleonic Wars and the society that fought them, featuring dozens of memorable characters.",
-    "pages": 1392
-  },
-  {
-    "id": 14,
-    "title": "The Brothers Karamazov",
-    "author": "Fyodor Dostoevsky",
-    "genre": "Philosophical Fiction",
-    "price": 11.99,
-    "description": "A complex and compelling novel exploring themes of faith, reason, and morality through the lives of three brothers in 19th-century Russia.",
-    "pages": 824
-  },
-  {
-    "id": 15,
-    "title": "Riders in the Chariot",
-    "author": "Patrick White",
-    "genre": "Modernist Fiction",
-    "price": 8.99,
-    "description": "A haunting novel about four isolated characters in post-World War II Australia, seeking transcendence amidst the mundanity of their lives.",
-    "pages": 528
-  },
-  {
-    "id": 16,
-    "title": "Don Quixote",
-    "author": "Miguel de Cervantes",
-    "genre": "Satire",
-    "price": 10.99,
-    "description": "A classic novel about a delusional knight-errant who sets out to revive chivalry in 17th-century Spain.",
-    "pages": 992
-  },
-  {
-    "id": 17,
-    "title": "Madame Bovary",
-    "author": "Gustave Flaubert",
-    "genre": "Realistic Fiction",
-    "price": 9.99,
-    "description": "A controversial novel about a dissatisfied wife in 19th-century France, who seeks escape from her provincial life through extramarital affairs and material possessions.",
-    "pages": 368
-  },
-  {
-    "id": 18,
-    "title": "Crime and Punishment",
-    "author": "Fyodor Dostoevsky",
-    "genre": "Psychological Thriller",
-    "price": 11.99,
-    "description": "A dark and brooding novel about a young man in St. Petersburg who commits a murder and struggles with guilt and redemption.",
-    "pages": 544
-  },
-  {
-    "id": 19,
-    "title": "Catch-22",
-    "author": "Joseph Heller",
-    "genre": "Satire",
-    "price": 8.99,
-    "description": "A satirical novel about the absurdities of war, following the exploits of a bombardier in World War II.",
-    "pages": 544
-  }
-]
+    {
+      "id": 10,
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "genre": "Science Fiction",
+      "price": 5.99,
+      "description": "A hilarious and irreverent romp through space and time, featuring a hapless human and his alien friend.",
+      "pages": 224
+    },
+    {
+      "id": 11,
+      "title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "genre": "Fiction",
+      "price": 15.99,
+      "description": "A seven-volume masterpiece of modernist literature, exploring the themes of memory, time, and society in fin-de-siècle France.",
+      "pages": 4215
+    },
+    {
+      "id": 12,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "genre": "Realistic Fiction",
+      "price": 9.99,
+      "description": "A sweeping novel of love, adultery, and family set against the backdrop of 19th-century Russia.",
+      "pages": 864
+    },
+    {
+      "id": 13,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "genre": "Historical Fiction",
+      "price": 12.99,
+      "description": "A panoramic novel of the Napoleonic Wars and the society that fought them, featuring dozens of memorable characters.",
+      "pages": 1392
+    },
+    {
+      "id": 14,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Philosophical Fiction",
+      "price": 11.99,
+      "description": "A complex and compelling novel exploring themes of faith, reason, and morality through the lives of three brothers in 19th-century Russia.",
+      "pages": 824
+    },
+    {
+      "id": 15,
+      "title": "Riders in the Chariot",
+      "author": "Patrick White",
+      "genre": "Modernist Fiction",
+      "price": 8.99,
+      "description": "A haunting novel about four isolated characters in post-World War II Australia, seeking transcendence amidst the mundanity of their lives.",
+      "pages": 528
+    },
+    {
+      "id": 16,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "genre": "Satire",
+      "price": 10.99,
+      "description": "A classic novel about a delusional knight-errant who sets out to revive chivalry in 17th-century Spain.",
+      "pages": 992
+    },
+    {
+      "id": 17,
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "genre": "Realistic Fiction",
+      "price": 9.99,
+      "description": "A controversial novel about a dissatisfied wife in 19th-century France, who seeks escape from her provincial life through extramarital affairs and material possessions.",
+      "pages": 368
+    },
+    {
+      "id": 18,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Psychological Thriller",
+      "price": 11.99,
+      "description": "A dark and brooding novel about a young man in St. Petersburg who commits a murder and struggles with guilt and redemption.",
+      "pages": 544
+    },
+    {
+      "id": 19,
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "genre": "Satire",
+      "price": 8.99,
+      "description": "A satirical novel about the absurdities of war, following the exploits of a bombardier in World War II.",
+      "pages": 544
+    }
+  ]
 }
