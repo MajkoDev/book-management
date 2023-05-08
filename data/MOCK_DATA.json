@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "book_title": "In Search of Lost Time",
+    "author": "Marcel Proust"
+  },
+  { "id": 2, "book_title": "Ulysses", "author": "James Joyce" },
+  { "id": 3, "book_title": "Don Quixote", "author": "Miguel de Cervantes" },
+  {
+    "id": 4,
+    "book_title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez"
+  },
+  { "id": 5, "book_title": "War and Peace", "author": "Leo Tolstoy" },
+  {
+    "id": 6,
+    "book_title": "Moby Dick",
+    "author": "Herman Melville"
+  },
+  {
+    "id": 7,
+    "book_title": "Madame Bovary",
+    "author": "Gustave Flaubert"
+  },
+  {
+    "id": 8,
+    "book_title": "Brothers Karamazov",
+    "author": "Fyodor Dostoyevsky"
+  },
+  { "id": 9, "book_title": "Wuthering Heights", "author": "Emily Brontë" },
+  { "id": 10, "book_title": "Anna Karenina", "author": "Leo Tolstoy" },
+  { "id": 11, "book_title": "Great Expectations", "author": "Charles Dickens" }
+]
