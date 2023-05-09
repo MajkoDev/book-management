@@ -51,7 +51,12 @@ input {
   flex-direction: column;
   align-items: center;
 }
-
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
 /* book item */
 
 .book-item {
@@ -66,6 +71,14 @@ input {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 3px;
+}
+.book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  margin-top: 6px;
 }
 h3 {
   font-size: 20px;
@@ -90,7 +103,25 @@ h5:hover {
   font-weight: 700;
   cursor: pointer;
 }
+.genre {
+  font-weight: 300;
+}
+h6 {
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 2px;
+}
 p {
   font-size: 14px;
   font-weight: 400;
+}
+button {
+  margin: 2px;
+  padding: 2px 8px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+button:hover {
+  background-color: gainsboro;
 }
