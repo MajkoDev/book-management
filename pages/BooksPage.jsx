@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import JSONDATA from "../data/MOCK_DATA.json";
 import axios from "axios";
+import BookItem from "../components/BookItem";
 
 const BooksPage = () => {
   const [loading, setLoading] = useState(true);
@@ -53,16 +54,7 @@ const BooksPage = () => {
         <>
           <div className="displaying">
             {books.map((book) => (
-              <div className="book-item" key={book.id}>
-                <div className="book-title">
-                  <div>
-                    <h3>{book.title}</h3>
-                    <h4>{book.author}</h4>
-                  </div>
-                  <h5>{book.price} €</h5>
-                </div>
-                <p>{book.description}</p>
-              </div>
+              <BookItem book={book} />
             ))}
           </div>
         </>
