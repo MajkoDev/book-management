@@ -6,7 +6,9 @@
 This is beginner-intermediate project in react. 
 
 **What this project contains?** <br />
-serving mock data with Json server
+1. serving mock data with Json server
+2. fetching and storing data with libraries
+3. managing items within application
 
 **in HomePage** <br />
 fetching and storing data with Zustand library
