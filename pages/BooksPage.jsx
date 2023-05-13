@@ -1,7 +1,6 @@
 //? displaying books in react-table
 
 import { useEffect, useState } from "react";
-import JSONDATA from "../data/MOCK_DATA.json";
 import axios from "axios";
 import BookItem from "../components/BookItem";
 
@@ -24,11 +23,27 @@ const BooksPage = () => {
     setTimeout(getBooks, 1500);
   }, []);
 
+  // searching functionality
+  const [searchBook, setSearchBook] = useState("");
+
+  function handleSearch(e) {
+    setSearchBook(e.target.value);
+  }
+
+  const searchingBooks = books.filter((book) => {
+    return book.title.toLowerCase().includes(searchBook.toLowerCase());
+  });
+
   return (
     <div className="book-page">
       <div className="searching">
         <h1>Books</h1>
-        <input type="text" placeholder="Anna Karenina" />
+        <input
+          type="text"
+          placeholder="Anna Karenina"
+          value={searchBook}
+          onChange={handleSearch}
+        />
       </div>
 
       {/*
@@ -53,7 +68,7 @@ const BooksPage = () => {
       ) : (
         <>
           <div className="displaying">
-            {books.map((book) => (
+            {searchingBooks.map((book) => (
               <BookItem book={book} />
             ))}
           </div>
