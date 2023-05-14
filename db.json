@@ -6,7 +6,7 @@
       "author": "Harper Lee",
       "genre": "Fiction",
       "price": 12.99,
-      "description": "A powerful story about racial injustice and the loss of innocence in a small Southern town.",
+      "description": "It tells the story of a young girl named Scout Finch growing up in a small town in Alabama during the 1930s. The novel deals with themes of racism, prejudice, and social inequality, as Scout's father, a lawyer named Atticus Finch, defends a black man accused of raping a white woman. Through Scout's eyes, the reader is shown the injustices of the segregated society and the bravery of those who stand up against it.",
       "pages": 336
     },
     {
@@ -15,7 +15,7 @@
       "author": "George Orwell",
       "genre": "Dystopian Fiction",
       "price": 9.99,
-      "description": "A chilling vision of a future in which the government has total control over every aspect of citizens' lives.",
+      "description": "It is set in a totalitarian society in which the government, led by the figurehead Big Brother, exercises complete control over the lives of its citizens. The novel explores themes of political oppression, censorship, and the dangers of totalitarianism, and is often seen as a warning against the abuses of power.",
       "pages": 328
     },
     {
@@ -24,7 +24,7 @@
       "author": "J.D. Salinger",
       "genre": "Coming-of-Age Fiction",
       "price": 8.99,
-      "description": "A timeless classic about a teenager's existential crisis in the aftermath of his expulsion from prep school.",
+      "description": "It follows the story of Holden Caulfield, a disillusioned teenager who has been expelled from his prep school and wanders around New York City for several days before returning home. The novel deals with themes of alienation, adolescence, and the loss of innocence, and has become a classic of American literature.    ",
       "pages": 277
     },
     {
@@ -33,7 +33,7 @@
       "author": "Jane Austen",
       "genre": "Romance",
       "price": 6.99,
-      "description": "A witty and charming tale of love and social class in Georgian England.",
+      "description": "It tells the story of Elizabeth Bennet, a strong-willed and independent woman, and her romantic relationship with the wealthy and proud Mr. Darcy. The novel explores themes of love, marriage, and social class, and is often seen as a satire of the social norms and values of Regency England. It is considered one of Austen's most popular and enduring works.",
       "pages": 336
     },
     {
@@ -42,7 +42,7 @@
       "author": "F. Scott Fitzgerald",
       "genre": "Literary Fiction",
       "price": 10.99,
-      "description": "A masterful depiction of the excesses and illusions of the Jazz Age.",
+      "description": "It tells the story of Jay Gatsby, a wealthy and mysterious man who throws lavish parties in the hopes of winning back his lost love, Daisy Buchanan. The novel deals with themes of love, wealth, and the corruption of the American Dream, and is often seen as a reflection of the Jazz Age and the excesses of the Roaring Twenties.    ",
       "pages": 180
     },
     {
@@ -51,7 +51,7 @@
       "author": "Herman Melville",
       "genre": "Adventure",
       "price": 13.99,
-      "description": "An epic tale of obsession and revenge on the high seas.",
+      "description": "It tells the story of Captain Ahab's obsessive quest to kill the giant white whale that has taken his leg. The novel deals with themes of revenge, obsession, and the struggle between man and nature, and is often seen as a commentary on the human condition and the quest for knowledge.",
       "pages": 704
     },
     {
@@ -60,7 +60,7 @@
       "author": "Mark Twain",
       "genre": "Adventure",
       "price": 7.99,
-      "description": "A rollicking tale of friendship and freedom along the Mississippi River in the pre-Civil War South.",
+      "description": "It tells the story of a young boy named Huck Finn who runs away from his abusive father and sets out on a journey down the Mississippi River with a runaway slave named Jim. The novel deals with themes of race, morality, and the hypocrisy of society, and is often seen as a commentary on the institution of slavery in America.",
       "pages": 366
     },
     {
@@ -69,7 +69,7 @@
       "author": "Gabriel Garcia Marquez",
       "genre": "Magical Realism",
       "price": 11.99,
-      "description": "A mesmerizing saga of the Buendia family's struggles and triumphs in a fictional town in Colombia.",
+      "description": "It tells the story of the Buendia family and their life in the fictional town of Macondo, spanning over several generations. The novel deals with themes of time, memory, and the cyclical nature of history, and is often seen as a masterpiece of magical realism.",
       "pages": 417
     },
     {
