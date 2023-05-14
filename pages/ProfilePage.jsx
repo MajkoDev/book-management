@@ -1,23 +1,36 @@
 //? personal profile with your books
 
+import useBookStore from "../store/useBookStore";
+
 const ProfilePage = () => {
+  const personals = useBookStore((state) => state.personalBooks);
+
   return (
-    <div>
-      <h1>Profile</h1>
-      <p>personal profile with your books</p>
+    <div
+      style={{
+        marginTop: "20px",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <h1 style={{ margin: "40px " }}>Profile</h1>
+      <h3
+        style={{
+          color: "darkred",
+          fontWeight: "400",
+          fontSize: "16px",
+          marginBottom: "20px",
+          textTransform: "uppercase",
+        }}
+      >
+        you have <b>{personals.length}</b> books
+      </h3>
 
-      <div className="personal_info">
-        <div id="person_avatar"></div>
-        <div id="person_information"></div>
-
-      </div>
-
-      <div className="personal_lists">
-        <div id="list_read"></div>
-        <div id="list_reading"></div>
-        <div id="list_to-read"></div>
-      
-      </div>
+      {personals.map((personal) => (
+        <h5 key={personal.id}> {personal.title} </h5>
+      ))}
     </div>
   );
 };
