@@ -1,4 +1,11 @@
+import { useState } from "react";
+
 const BookItem = ({ book }) => {
+  const [description, setDescription] = useState(false);
+
+  function showDescription() {
+    setDescription(!description);
+  }
   return (
     <div className="book-item" key={book.id}>
       <div className="book-title">
@@ -8,11 +15,20 @@ const BookItem = ({ book }) => {
         </div>
         <h5>{book.price} €</h5>
       </div>
-      <p>{book.description}</p>
+      {description && <p>{book.description}</p>}
+
       <div className="book-info">
-        <p className="genre">{book.genre}</p>
-        <h6>number of page is {book.pages}</h6>
-        <button>Add to Profile</button>
+        {description && (
+          <>
+            <p className="genre">{book.genre}</p>
+            <h6>number of page is {book.pages}</h6>
+          </>
+        )}
+
+        <button onClick={showDescription}>
+          {description ? <b>Hide </b> : <b>Show </b>}
+          more informations
+        </button>
       </div>
     </div>
   );
