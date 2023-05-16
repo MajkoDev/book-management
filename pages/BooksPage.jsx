@@ -1,79 +1,63 @@
-//? displaying books in react-table
+//? introduction to application with explanation
 
-import { useEffect, useState } from "react";
-import axios from "axios";
-import BookItem from "../components/BookItem";
+import { useEffect } from "react";
+import useBookStore from "../store/useBookStore";
 
 const BooksPage = () => {
-  const [loading, setLoading] = useState(true);
-  const [books, setBooks] = useState([]);
+  const books = useBookStore((state) => state.books);
+  const fetchBooks = useBookStore((state) => state.fetchBooks);
+  const addBook = useBookStore((state) => state.addBook);
 
-  // asynch fetching data with axios
   useEffect(() => {
-    const getBooks = async () => {
-      try {
-        const res = await axios
-          .get("http://localhost:3000/books")
-          .then((res) => setBooks(res.data))
-          .finally(() => setLoading(false));
-      } catch (err) {
-        console.log("There has been error somewhere.");
-      }
-    };
-    setTimeout(getBooks, 1500);
-  }, []);
+    fetchBooks();
+  }, [fetchBooks]);
 
-  // searching functionality
-  const [searchBook, setSearchBook] = useState("");
-
-  function handleSearch(e) {
-    setSearchBook(e.target.value);
-  }
-
-  const searchingBooks = books.filter((book) => {
-    return book.title.toLowerCase().includes(searchBook.toLowerCase());
-  });
 
   return (
-    <div className="book-page">
-      <div className="searching">
-        <h1>Books</h1>
-        <input
-          type="text"
-          placeholder="Anna Karenina"
-          value={searchBook}
-          onChange={handleSearch}
-        />
-      </div>
-
-      {/*
-        <div className="displaying">
-                {JSONDATA.map((book) => (
-                <div className="book-item" key={book.id}>
-                    <div className="book-title">
-                    <div>
-                        <h3>{book.title}</h3>
-                        <h4>{book.author}</h4>
-                    </div>
-                    <h5>{book.price} €</h5>
-                    </div>
-                    <p>{book.description}</p>
-                </div>
-                ))}
+    <div>
+      <div
+        style={{
+          marginTop: "20px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h1 style={{ margin: "40px " }}>Book Page</h1>
+        {books.map((book) => (
+          <div
+            key={book.id}
+            style={{
+              border: "1px black solid",
+              margin: "0.9rem",
+              padding: "0.5rem",
+              minWidth: "500px",
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <div>
+              <h3>{book.title}</h3>
+              <h4>{book.author}</h4>
             </div>
-         */}
-
-      {loading ? (
-        <h2 className="loading">Loading</h2>
-      ) : (
-        <>
-          <div className="displaying">
-            {searchingBooks.map((book) => (
-              <BookItem book={book} />
-            ))}
+            <button
+              style={{
+                border: "2px solid black",
+                borderRadius: "10px",
+                padding: "6px",
+                fontSize: "14px",
+                fontWeight: "600",
+              }}
+              onClick={() => addBook(book)}
+            >
+              Add to Profile
+            </button>
           </div>
-        </>
-      )}
+        ))}{" "}
+      </div>
     </div>
   );
 };
