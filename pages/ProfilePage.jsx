@@ -1,9 +1,15 @@
 //? personal profile with your books
 
+import PersonalItem from "../components/PersonalItem";
 import useBookStore from "../store/useBookStore";
 
 const ProfilePage = () => {
-  const personals = useBookStore((state) => state.personalBooks);
+  const personalBooks = useBookStore((state) => state.personalBooks);
+  const deleteBook = useBookStore((state) => state.deleteBook);
+
+  function removeBook() {
+   deleteBook(personal.id);
+  }
 
   return (
     <div
@@ -25,11 +31,11 @@ const ProfilePage = () => {
           textTransform: "uppercase",
         }}
       >
-        you have <b>{personals.length}</b> books
+        you have <b>{personalBooks.length}</b> books
       </h3>
 
-      {personals.map((personal) => (
-        <h5 key={personal.id}> {personal.title} </h5>
+      {personalBooks.map((personal) => (
+        <PersonalItem personal={personal} />
       ))}
     </div>
   );
