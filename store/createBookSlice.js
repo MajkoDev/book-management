@@ -9,6 +9,11 @@ const createBookSlice = (set, get) => ({
     set({
       personalBooks: [...new Set([...get().personalBooks, book])]
     }),
+    deleteBook: (bookId) => {
+      set({
+        personalBooks: get().personalBooks.filter((personalBook) => personalBook.id !== bookId)
+      })
+    }
 });
 
 {
