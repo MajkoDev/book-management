@@ -125,3 +125,34 @@ button {
 button:hover {
   background-color: gainsboro;
 }
+
+/* personal item */
+
+
+
+.personal-title{
+  font-size: medium;
+}
+.personal-author{
+  font-size: small;
+}
+.personal-info{
+  font-size: small;
+}
+
+.personal-btn{
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.info{
+  font-size: smaller;
+}
+
+
+.container{
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+}
