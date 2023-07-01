@@ -2,6 +2,11 @@
 
 <br/>
 
+In order to run project, you must start server: **npm run serve-json**
+and then run: **npm run dev**
+
+<br />
+
 **What is this project about?** <br />
 This is beginner-intermediate project in react. 
 
